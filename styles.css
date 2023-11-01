@@ -1,0 +1,165 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: Agbalumo;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('images/bg3.jpeg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+    
+}
+*{
+    /* font-family: Agbalumo; */
+    font-family: Abril Fatface;
+    font-family: 'Aclonica', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Proza Libre', sans-serif;
+font-family: 'Ribeye Marrow', serif;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #95dff077;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.left-side {
+    width: 30%;
+}
+
+.center-notes {
+    text-align: center;
+    width: 30%;
+}
+
+.date-box {
+    font-family: Abril Fatface;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.h1{
+    font-family: Abril Fatface;
+}
+
+.date-box p {
+    margin: 0;
+}
+
+.notes-box {
+    text-align: center;
+    padding: 20px 0;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.right-side {
+    width: 30%;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button#addTask {
+    background-color: #0d97bd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+li input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: #e64f4f;
+}
+
+li button.delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+li button.delete:hover {
+    background-color: #d32f2f;
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+}
+#saveNotes{
+    font-size: 15px;
+    padding :4px 4px ; 
+    border-radius :3px; 
+
+}
+#saveNotes:hover{
+    background-color: #6ec2da;
+    transition:.4s
+
+}
+#resetNotes{
+    font-size: 15px;
+    padding :4px 4px ; 
+    border-radius :3px; 
+
+}
+#resetNotes:hover{
+    background-color: #6ec2da;
+    transition:.4s
+
+}
+
+#addTask:hover{
+    transition: .3s;
+    background-color: #205461;
+
+}
+
+

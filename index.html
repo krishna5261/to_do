@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>To-Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=
+Lato:ital,wght@0,900;1,400;1,900&family=Merriweather:ital,wght@1,300&famil
+y=Playpen+Sans&family=Proza+Libre&family=Ribeye+Marrow&display=swap" rel="stylesheet">
+</head>
+<h1><center>TO-DO LIST<br>(Increase Productivity)</center></h1>
+<br><br><br><br>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <h2>To-Do List</h2>
+            <div class="input-container">
+                <input type="text" id="task" placeholder="Add a new task">
+                <button id="addTask">Add</button>
+            </div>
+            <ul id="taskList">
+                
+            </ul>
+        </div>
+        <div class="center-notes">
+            <div class="date-box">
+                <p id="dateDisplay"></p>
+            </div>
+            <!-- <div class="notes-box">
+                <textarea id="notes" placeholder="Write your notes here"></textarea>
+            </div> -->
+            <div class="notes-box">
+                <textarea id="notes" placeholder="Write your notes here"></textarea>
+                <button id="saveNotes">Save</button>
+                <button id="resetNotes">Reset</button>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="completed-tasks">
+                <h3>COMPLETED TASKS </h3>
+                <ul id="completedTaskList"></ul><br><br><br>
+            </div>
+            <div class="incompleted-tasks">
+                <h3>INCOMPLETED TASKS</h3>
+                <ul id="incompletedTaskList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
